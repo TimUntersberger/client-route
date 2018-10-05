@@ -25,11 +25,11 @@ class ClientRoute extends HTMLElement{
 	get tag(){ return this.getAttribute("tag") }
 
 	load(){
-		setTimeout(() => this.importElement(this.from)
+		this.importElement(this.from)
 			.then(_ => { 
 				this.innerHTML = this.content = `<${this.tag}></${this.tag}>`;
 				this.loaded = true;
-			}), 1000);
+			});
 	}
 
 	importElement(path){
