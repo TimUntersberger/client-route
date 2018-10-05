@@ -1,7 +1,11 @@
 {
   "name": "client-route",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "repository": {
+	  "type": "git",
+	  "url": "https://www.github.com/TimUntersberger/client-route"
+  },
   "main": "index.js",
-  "author": "",
+  "author": "TimUntersberger",
   "license": "ISC"
 }
