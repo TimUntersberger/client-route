@@ -1,5 +1,5 @@
 # client-route
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/owner/my-element)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/client-route)
 
 Client-route is a simple webcomponent for client side routing. 
 
