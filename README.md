@@ -2,8 +2,12 @@
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/owner/my-element)
 
 Client-route is a simple webcomponent for client side routing. 
+
 The component supports lazyloading by using the javascript eval function. 
+
 My custom import function will be replaced by the offical import as soon as the import propsal is supported in all browsers.
+
+The component listens for `pathchanged` events to know when to check whether it should render the children.
 
 ## Installation
 
@@ -21,13 +25,13 @@ My custom import function will be replaced by the offical import as soon as the 
 
 ## Props
 
-##### path
+### path
 The children get rendered when the path matches the window location.
 ```html
 <client-route path="/"></client-route>
 ```
 
-##### from
+### from
 The location of the custom element.
 Activates lazy loading.
 If from is specified then the tag attribute has to be set too.
@@ -35,7 +39,7 @@ If from is specified then the tag attribute has to be set too.
 ```html
 <client-route path="/" from="/home.js" tag="home-page"></client-route>
 ```
-##### tag
+### tag
 The element that gets rendered after the element has been fetched.
 Activates lazy loading.
 If tag is specified then the from attribute has to be set too.
