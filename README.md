@@ -1,17 +1,14 @@
 # client-route
----
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/owner/my-element)
 Client-route is a simple webcomponent for client side routing. 
 The component supports lazyloading by using the javascript eval function. 
 My custom import function will be replaced by the offical import as soon as the import propsal is supported in all browsers.
 
 ## Installation
----
 
 `npm install client-route` or `yarn add client-route`
 
 ## Usage
----
 
 **Note**: the recommended way of using client-route is together with [client-link]().
 
@@ -22,7 +19,6 @@ My custom import function will be replaced by the offical import as soon as the 
 ```
 
 ## Props
----
 
 ##### path
 The children get rendered when the path matches the window location.
@@ -46,7 +42,6 @@ If tag is specified then the from attribute has to be set too.
 <client-route path="/" from="/home.js" tag="home-page"></client-route>
 ```
 ## Contributing
----
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -56,6 +51,5 @@ If tag is specified then the from attribute has to be set too.
 6. 
 
 ## License
----
 
 [LICENSE](LICENSE)
