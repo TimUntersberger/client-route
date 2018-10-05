@@ -15,7 +15,7 @@ The component listens for `pathchanged` events to know when to check whether it 
 
 ## Usage
 
-**Note**: the recommended way of using client-route is together with [client-link]().
+**Note**: the recommended way of using client-route is together with [client-link](https://github.com/TimUntersberger/client-link).
 
 ```html
 <script src="node_modules/client-router/index.js"></script>
